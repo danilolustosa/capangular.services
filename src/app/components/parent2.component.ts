@@ -14,4 +14,5 @@ export class Parent2Component
  this.sharedValue=sharedService.getSharedValue();
  console.log('Parent-2 ' + this.sharedValue.toString());
  }
+
 }
